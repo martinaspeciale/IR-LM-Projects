@@ -59,6 +59,16 @@ The LM notebook expects this Drive layout when running in Colab:
 /content/drive/MyDrive/LM_Project/parameter_study_artifacts.zip
 ```
 
+### `final_model_repository.zip`
+
+This archive contains the expensive outputs of the final 100,000-iteration training runs. It is needed because the final notebook does not retrain the four large models from scratch in Colab. Instead, it reloads the trained weights and recomputes the evaluation tables, graphs, and generated samples from the saved files.
+
+The most important part is `checkpoints/`. The `*_best_gpt.pt` files are the model states selected at the best validation loss, and these are the files used by the notebook when generating fresh text. 
+
+### `parameter_study_artifacts.zip`
+
+This archive contains the smaller hyperparameter-exploration results used in the notebook before the final selected models. It is needed so the parameter-study graphs can be recreated without rerunning all the temporary experiments.
+
 ## Reproducibility Notes
 
 For the LM project, the expensive model training has already been completed. The final notebook is designed to load the trained checkpoints and saved parameter-study CSVs, so it can be rerun in Colab without retraining all final models.
