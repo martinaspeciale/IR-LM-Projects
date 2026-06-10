@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+*/.DS_Store
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Generated IR outputs
+*.run
+runs/
+
+# Generated notebook/media artifacts
+images/
+artifacts/
+outputs/
+
+# Large LM artifacts kept on Drive
+*.zip
+*.pt
+*.pth
+*.pkl
