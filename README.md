@@ -5,7 +5,9 @@ This repository contains the final project material for two NLP-related projects
 - The Information Retrieval project based on the ANTIQUE dataset;
 - The Language Modeling project comparing small GPT-style models with different tokenisations.
 
-Large files and generated artifacts are stored on Google Drive to keep the repository lightweight.
+Overall, the repository is split into two independent project folders: `IR/` contains the Information Retrieval notebook and HTML export, while `LM/` contains the Language Modeling notebook and HTML export.
+
+Large files and generated artifacts fo the LM project are stored on Google Drive to keep the repository lightweight.
 
 * [Google Drive Folder](https://drive.google.com/drive/folders/1Agz9DELaySgX9oJCNDqWZErU-JtFJ_iK?usp=drive_link)
 
@@ -13,19 +15,21 @@ Large files and generated artifacts are stored on Google Drive to keep the repos
 
 ### 1. Information Retrieval: ANTIQUE Search Project
 
-Notebook:
+Notebook and HTML export:
 
 - `IR/IR_Antique_Search_Project.ipynb`
+- `IR/IR_Project_HTML.html`
 
 
 This project studies retrieval on the ANTIQUE dataset. It includes indexing/search experiments.
 
 ### 2. Language Modeling: GPT Language Model Project
 
-Notebook:
+Notebook and HTML export:
 
-- `LM_Project_GPTLanguageModel.ipynb`  
+- `LM/LM_Project_GPTLanguageModel.ipynb`  
   Colab/Drive version: [notebook](https://drive.google.com/file/d/1w4pfqiuVtvRATnl5EwVRAqXjF8vcYVza/view?usp=drive_link)
+- `LM/LM_Project_HTML.html`
 
 External artifacts needed to run the LM notebook (also uploaded on the linked folder):
 
